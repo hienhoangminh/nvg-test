@@ -1,0 +1,5 @@
+# Ignore folder target/
+target
+
+# Ignore .iml file
+*.iml

@@ -1,6 +1,5 @@
 package tests;
 
-import constants.AwsConstants;
 import org.testng.annotations.Test;
 import pages.SearchPage;
 import utils.PropertiesHelper;
