@@ -13,3 +13,4 @@ Improvement later:
 - Implement helper for all repetitive actions : sendKeys, etc...
 - Dockerize the tests
 - Apply Spring to manage data and states.
+- Manage the locator in JSON file
