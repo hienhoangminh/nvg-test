@@ -29,7 +29,6 @@ public class DriverFactory {
     }
 
     public static final WebDriver getDriver(String type) {
-        return driverMap.get(type).get();
+       return driverMap.get(type).get();
     }
-
 }

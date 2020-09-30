@@ -13,7 +13,7 @@ public class AbstractTest {
     protected WebDriver driver;
     protected DataHelper dataHelper;
 
-    @BeforeTest
+    @BeforeClass
     @Parameters({"browser", "user-data-file"})
     public void setup(@Optional("chrome") String browser, @Optional("/src/main/resources/data.json") String userDataFile) throws IOException {
         String filePath = System.getProperty("user.dir") + userDataFile;
@@ -22,7 +22,7 @@ public class AbstractTest {
         dataHelper = DataHelper.get(filePath);
     }
 
-    @AfterTest
+    @AfterClass
     public void teardown() {
         driver.close();
     }
