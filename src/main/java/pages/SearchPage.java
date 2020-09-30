@@ -17,13 +17,11 @@ import java.util.stream.Collectors;
 
 public class SearchPage {
 
+    private static By by = By.xpath("//div[contains(@class,'a-color-secondary')]/span[contains(@class,'a-text-normal')]");
     private WebDriver driver;
     private WebDriverWait wait;
     private Actions action;
     private ComparatorHelper comparatorHelper;
-
-    private static By by = By.xpath("//div[contains(@class,'a-color-secondary')]/span[contains(@class,'a-text-normal')]");
-
     @FindBy(id = "searchDropdownBox")
     private WebElement departmentDropdown;
 
@@ -45,7 +43,7 @@ public class SearchPage {
     @FindBy(id = "a-autoid-0-announce")
     private WebElement sortDropdown;
 
-    @FindBy(xpath="//ul[@role='listbox']/li[@class='a-dropdown-item']/a")
+    @FindBy(xpath = "//ul[@role='listbox']/li[@class='a-dropdown-item']/a")
     private List<WebElement> sortOptions;
 
     public SearchPage(WebDriver driver) {

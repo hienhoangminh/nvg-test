@@ -3,6 +3,7 @@ package tests;
 import org.testng.annotations.Test;
 import pages.SearchPage;
 import utils.PropertiesHelper;
+
 import java.io.IOException;
 
 public class TC003_Search_Validate_Search_Result_Pagination extends AbstractTest {
