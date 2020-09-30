@@ -1,0 +1,5 @@
+tests/AbstractTest.class
+tests/TC004_Search_Validate_Search_Result_Sort.class
+tests/TC003_Search_Validate_Search_Result_Pagination.class
+tests/TC002_Login_Invalid_Account.class
+tests/TC001_Login_Valid_Account.class

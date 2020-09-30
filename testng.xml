@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Amazon Test Suite">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="user-data-file" value="/src/main/resources/data.json"/>
+<!--    <test name="Amazon - Login function">-->
+<!--        <classes>-->
+<!--            <class name="tests.TC001_Login_Valid_Account"/>-->
+<!--            <class name="tests.TC002_Login_Invalid_Account"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+    <test name="Amazon - Search function">
+        <classes>
+            <class name="tests.TC003_Search_Validate_Search_Result_Pagination"/>
+            <class name="tests.TC004_Search_Validate_Search_Result_Sort"/>
+        </classes>
+    </test>
+</suite>

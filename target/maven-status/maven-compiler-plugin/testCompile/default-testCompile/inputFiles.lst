@@ -1,0 +1,5 @@
+/Users/hienhoang/workspace/nvg-test/src/test/java/tests/TC001_Login_Valid_Account.java
+/Users/hienhoang/workspace/nvg-test/src/test/java/tests/AbstractTest.java
+/Users/hienhoang/workspace/nvg-test/src/test/java/tests/TC002_Login_Invalid_Account.java
+/Users/hienhoang/workspace/nvg-test/src/test/java/tests/TC003_Search_Validate_Search_Result_Pagination.java
+/Users/hienhoang/workspace/nvg-test/src/test/java/tests/TC004_Search_Validate_Search_Result_Sort.java
