@@ -12,3 +12,4 @@ Improvement later:
 - Add logger and push the log to Grafana/Kibana
 - Implement helper for all repetitive actions : sendKeys, etc...
 - Dockerize the tests
+- Apply Spring to manage data and states.
