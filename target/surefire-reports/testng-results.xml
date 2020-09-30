@@ -2,16 +2,16 @@
 <testng-results skipped="1" failed="1" ignored="2" total="6" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Amazon Test Suite" duration-ms="10031" started-at="2020-09-30T20:58:10 ICT" finished-at="2020-09-30T20:58:20 ICT">
+  <suite name="Amazon Test Suite" duration-ms="8664" started-at="2020-09-30T21:06:56 ICT" finished-at="2020-09-30T21:07:05 ICT">
     <groups>
     </groups>
-    <test name="Amazon - Search function" duration-ms="10031" started-at="2020-09-30T20:58:10 ICT" finished-at="2020-09-30T20:58:20 ICT">
+    <test name="Amazon - Search function" duration-ms="8664" started-at="2020-09-30T21:06:56 ICT" finished-at="2020-09-30T21:07:05 ICT">
       <class name="tests.TC004_Search_Validate_Search_Result_Sort">
-        <test-method status="FAIL" signature="launch()[pri:0, instance:tests.TC004_Search_Validate_Search_Result_Sort@4c70fda8]" name="launch" duration-ms="0" started-at="2020-09-30T20:58:20 ICT" finished-at="2020-09-30T20:58:20 ICT">
+        <test-method status="FAIL" signature="launch()[pri:0, instance:tests.TC004_Search_Validate_Search_Result_Sort@26be92ad]" name="launch" duration-ms="0" started-at="2020-09-30T21:07:05 ICT" finished-at="2020-09-30T21:07:05 ICT">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
-at tests.TC004_Search_Validate_Search_Result_Sort.launch(TC004_Search_Validate_Search_Result_Sort.java:15)
+at tests.TC004_Search_Validate_Search_Result_Sort.launch(TC004_Search_Validate_Search_Result_Sort.java:14)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -50,13 +50,13 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method status="SKIP" signature="searchWithoutSort()[pri:0, instance:tests.TC004_Search_Validate_Search_Result_Sort@4c70fda8]" name="searchWithoutSort" duration-ms="0" started-at="2020-09-30T20:58:20 ICT" depends-on-methods="tests.TC004_Search_Validate_Search_Result_Sort.launch" finished-at="2020-09-30T20:58:20 ICT">
+        <test-method status="SKIP" signature="searchWithoutSort()[pri:0, instance:tests.TC004_Search_Validate_Search_Result_Sort@26be92ad]" name="searchWithoutSort" duration-ms="0" started-at="2020-09-30T21:07:05 ICT" depends-on-methods="tests.TC004_Search_Validate_Search_Result_Sort.launch" finished-at="2020-09-30T21:07:05 ICT">
           <exception class="java.lang.Throwable">
             <message>
-              <![CDATA[Method TC004_Search_Validate_Search_Result_Sort.searchWithoutSort()[pri:0, instance:tests.TC004_Search_Validate_Search_Result_Sort@4c70fda8] depends on not successfully finished methods]]>
+              <![CDATA[Method TC004_Search_Validate_Search_Result_Sort.searchWithoutSort()[pri:0, instance:tests.TC004_Search_Validate_Search_Result_Sort@26be92ad] depends on not successfully finished methods]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method TC004_Search_Validate_Search_Result_Sort.searchWithoutSort()[pri:0, instance:tests.TC004_Search_Validate_Search_Result_Sort@4c70fda8] depends on not successfully finished methods
+              <![CDATA[java.lang.Throwable: Method TC004_Search_Validate_Search_Result_Sort.searchWithoutSort()[pri:0, instance:tests.TC004_Search_Validate_Search_Result_Sort@26be92ad] depends on not successfully finished methods
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
@@ -88,7 +88,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
         </test-method> <!-- searchWithoutSort -->
       </class> <!-- tests.TC004_Search_Validate_Search_Result_Sort -->
       <class name="tests.TC003_Search_Validate_Search_Result_Pagination">
-        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:tests.TC003_Search_Validate_Search_Result_Pagination@26be92ad]" name="setup" is-config="true" duration-ms="2145" started-at="2020-09-30T20:58:10 ICT" finished-at="2020-09-30T20:58:12 ICT">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:tests.TC003_Search_Validate_Search_Result_Pagination@1d057a39]" name="setup" is-config="true" duration-ms="2792" started-at="2020-09-30T21:06:56 ICT" finished-at="2020-09-30T21:06:59 ICT">
           <params>
             <param index="0">
               <value>
@@ -104,15 +104,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="launch()[pri:0, instance:tests.TC003_Search_Validate_Search_Result_Pagination@26be92ad]" name="launch" duration-ms="4496" started-at="2020-09-30T20:58:12 ICT" finished-at="2020-09-30T20:58:17 ICT">
+        <test-method status="PASS" signature="launch()[pri:0, instance:tests.TC003_Search_Validate_Search_Result_Pagination@1d057a39]" name="launch" duration-ms="2911" started-at="2020-09-30T21:06:59 ICT" finished-at="2020-09-30T21:07:02 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method status="PASS" signature="searchWithoutSort()[pri:0, instance:tests.TC003_Search_Validate_Search_Result_Pagination@26be92ad]" name="searchWithoutSort" duration-ms="3199" started-at="2020-09-30T20:58:17 ICT" depends-on-methods="tests.TC003_Search_Validate_Search_Result_Pagination.launch" finished-at="2020-09-30T20:58:20 ICT">
+        <test-method status="PASS" signature="searchWithoutSort()[pri:0, instance:tests.TC003_Search_Validate_Search_Result_Pagination@1d057a39]" name="searchWithoutSort" duration-ms="2760" started-at="2020-09-30T21:07:02 ICT" depends-on-methods="tests.TC003_Search_Validate_Search_Result_Pagination.launch" finished-at="2020-09-30T21:07:05 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchWithoutSort -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.TC003_Search_Validate_Search_Result_Pagination@26be92ad]" name="teardown" is-config="true" duration-ms="162" started-at="2020-09-30T20:58:20 ICT" finished-at="2020-09-30T20:58:20 ICT">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.TC003_Search_Validate_Search_Result_Pagination@1d057a39]" name="teardown" is-config="true" duration-ms="174" started-at="2020-09-30T21:07:05 ICT" finished-at="2020-09-30T21:07:05 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
